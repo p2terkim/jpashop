@@ -23,6 +23,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'
+
+	//쿼리 파라미터 로그 남기기 방법2. 외부 라이브러리 사용
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.7.1' //스프링부트가 미리 세팅해놓지 않은 라이브러리는 버전 정보를 직접 입력해야한다.
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
